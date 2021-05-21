@@ -1,0 +1,272 @@
+Java data types :-
+----------------
+
+11/02/2021---
+----------
+
+         
+		 //import java.lnag.*;
+		 import java.util.Scanner;
+		 class Test{
+		   public static void main(Strig[] args){
+		   Scanner sc=new Scanner(System.in);
+		   System.out.println("Enter a number);
+           int a = sc.nextInt();
+           System.out.println("enter second number");
+		   int b =sc.nextInt();
+		   int c=a+b;
+		   System.out.println("sum="+c);
+			
+		   }
+		 }
+Methods of scanner classes :( these all are non-static methods)
+----------------------------
+1   .next() :- for string input
+2  .nextLine():- for space withh string too accept here 
+3   .nextByte():-
+4   .nextShort()
+5   .nextInt()
+6   .nextLong()
+7   .nextFloat()
+8   .nextDouble()
+9   .nextBoolean()
+
+
+
+
+ 12/02/2021---------------------------------------------------------------------------------------------------
+ 
+ 
+ control structure statement:---
+ ------------------------------
+    
+	
+	
+	
+	
+	Relational operator:
+	--------------------
+	             ==
+				 !<
+				 >
+				 <
+				 =<
+				 =>
+	all the relational operator return the boolean data type.
+ 
+ 
+ 
+ Assignment :
+ ----------------
+     ->check input number is even or odd
+	 ->checl leap year 
+	 ->check input age is valid for voting
+	 ->age:
+	   -----
+	      child -12
+		  teen-13-19
+		  young-20-60
+		  old - 60 above
+ 
+ 
+ -----------------------------------------------------------------------------------
+   
+   int a=7,b;
+   b=a++ + a++ + a++ + a++ + a++;
+    b= 7   + 8   +  9   + 10 + 11;
+	 b=45
+	 ===============
+	 
+	 
+	 
+	 
+==================================
+
+assignment on loop ;
+=---------------
+      
+	    ->print the folloing series: -> 1 2 4 7 11 16 22 29................
+		-> pirnt first n even natural number 
+		->print first n odd natural number 
+		->print first n square  of natural number .
+		->find the factoril of given number 
+		->find x^y
+		->find the sum of input digits
+		->reverse of input digitsk
+		->check input number is palindrom  (121)
+		->check input number is arm strong 
+		->check input number is prime number 
+		->
+		   *
+		   * *
+		   * * *
+		   * * * * 
+		   * * * * *
+		   
+		 ->
+		 
+		   * * * * * 
+		   * * * *
+		   * * *
+		   * * 
+		   *
+		  
+		  ->
+		            *
+				   * *
+				  * * *
+				 * * * *
+				* * * * *
+				
+		 -> 
+		 
+		      * * 
+			  * * * * 
+			  * * * * * * 
+			  * * * * * * * * 
+			  
+		->
+		
+		      *
+			  * * * 
+			  * * * * *
+			  * * * * * * * 
+			  * * * * * * * * * 
+---------------------------------------------------------------------------------------
+
+
+
+  For loop : 
+-----------
+             
+             for(int i=1;i<=10;System.out.println("value ="+i),i++); 
+			// single statement of       
+			// forloop			 
+			  
+			  
+   factorial :
+   ----------
+   for(i=1,fact=1;i<=n;fact=fact*i,i++);
+   System.out.println("factorial = "+ fact); 
+
+
+=====================================================
+
+17/02/2021   
+-----------
+
+  Arrays:-
+  -------
+         collection of similar type of data type .
+  field:-
+--------- 
+          Ex:- roll number(rno).
+		       fees
+			   
+		syntax:
+		------
+               int a[] = new int[10];
+			       ----         ----
+                array ref =    	size (subscript/index)
+				
+ -> why array index start from the zeroj(0) ?
+ Ans: Because the size of any array always be possitive value and unsigned int that's why its index value always be starts with zero (0).
+   
+    length-> in array length- is an attribute.
+    ------
+
+---> find the sum of array element ?
+     find the minimum element from the array?
+
+assignment on array : 
+--------------
+            --> find the maximum element of array ?
+            -->Reverse of array element ?
+			-->find the second largest element of array ?
+			-----------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------
+
+19/02/2021
+---------
+java oops:
+----------
+
+case 1:--> all methods are static and define in the same classs .
+          if static method belongs to the same method then class name is to be optional for method calling.
+case 2:--> All methods  are static and define in different class
+case 3:--> all methods are non-static and define in different class .
+           First ob = new First();
+
+
+-->method of obeject base class (parent classes)-->
+ --------------
+                .toString()
+				.hashCode()
+				.equals()
+				.getClass()
+				.notify()
+				.wait()
+				.wait()
+		   
+Note: java not support the pointer concept .
+-----
+       static :
+	   --------
+	        ->method 
+			->data member 
+			->block
+		
+
+ --> all static method is to be called its equivalent 
+          psvm(s[]args){
+		  
+}		  
+
+-------------------------------------------------------------------------------------- 
+
+addition of two numbers using opps
+
+assignment:why we call any method with object.
+
+ 		  
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
